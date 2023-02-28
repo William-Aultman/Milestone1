@@ -1,0 +1,7 @@
+*{
+    font-family: Tahoma;
+}
+#news{
+    object-fit: cover;
+    float: left;
+}
