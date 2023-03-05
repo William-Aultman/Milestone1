@@ -18,6 +18,7 @@
     <a href="Combat.php">Combat</a>
     <a href="Helicopter.php">Helicopter</a>
     <a href="Spacecraft.php">Spacecraft</a>
+    <a href="Balloon.php">中国间谍气球</a>
 </nav>
 <div>
     <h2>What are aircraft?</h2>
