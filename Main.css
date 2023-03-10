@@ -1,11 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: auto;
 }
 .grid{
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 2px;
+    grid-column-gap: 1px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1px;
 }
 .whiteSpace{
     height: 30px;
@@ -30,10 +36,6 @@ body{
 #news{
     object-fit: cover;
     float: left;
-}
-#newsSection1{
-    float: left;
-    width: 50%;
 }
 .topNav{
     background: #3C3C3C;
@@ -63,7 +65,9 @@ body{
 }
 #foot2{
     background: black;
-    height: 100%;
-    width: 100%;
     padding: 65px;
+    overflow: auto;
+}
+#articles{
+    border: solid black 2px;
 }

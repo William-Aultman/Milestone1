@@ -31,7 +31,7 @@
         <h3>~ Leonardo da Vinci</h3>
     </div>
 </div>
-<div class="grid">
+<div class="grid2">
     <div id="newsSection1" class="bodyStuff">
         <?php
         $apikey = 'a706b43f421c58dd41bffe79e85f462b';
@@ -44,7 +44,11 @@
         curl_close($ch);
         $articles = $data['articles'];
 
+
         for ($i = 0; $i < 5; $i++) {
+            ?>
+            <div id="articles">
+            <?php
             $newsImage = $articles[$i]['image'];
             echo " <img id='news' src=$newsImage width='100px' height='100px'/>";
             echo nl2br ("\n");
@@ -59,14 +63,20 @@
             // articles[i].{property}
             // echo $articles[$i]['{property}'] . "\n";
             echo nl2br ("\n");
+            ?>
+            </div>
+            <?php
         }
         ?>
     </div>
     <div id="newsSection2" class="bodyStuff">
         <?php
         for ($i = 5; $i < 10; $i++) {
+            ?>
+            <div id="articles">
+            <?php
             $newsImage = $articles[$i]['image'];
-            echo " <img id='news' src=$newsImage width='100px' height='100px'/>";
+            echo "<img id='news' src=$newsImage width='100px' height='100px'/>";
             echo nl2br ("\n");
             echo nl2br ("\n");
             // articles[i].title
@@ -79,15 +89,15 @@
             // articles[i].{property}
             // echo $articles[$i]['{property}'] . "\n";
             echo nl2br ("\n");
+            ?>
+            </div>
+            <?php
         }
         ?>
     </div>
 </div>
-<div class="whiteSpace">
-</div>
-<div id="foot1">
-</div>
-<div id="foot2">
-</div>
+<div class="whiteSpace"></div>
+<div id="foot1"></div>
+<div id="foot2"></div>
 </body>
 </html>
