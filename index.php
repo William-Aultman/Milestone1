@@ -13,7 +13,6 @@
 <div class="topNav">
     <a href="index.php" class="active">Home</a>
     <a href="Piston.php">Piston</a>
-    <a href="Prop.php">Prop</a>
     <a href="Turboprop.php">Turboprop</a>
     <a href="Jet.php">Jet</a>
     <a href="Combat.php">Combat</a>
