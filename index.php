@@ -7,8 +7,7 @@
 </head>
 <body>
 <div id="head">
-    <img src="">
-    <h1>World of Planes</h1>
+    <img src=".photos\WorldOfPlanesBanner.png">
 </div>
 <div class="topNav">
     <a href="index.php" class="active">Home</a>

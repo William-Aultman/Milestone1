@@ -28,10 +28,10 @@ body{
     border: 2px solid black;
 }
 #head{
-    text-align: center;
-    color: white;
     background: black;
-    overflow: auto;
+    overflow: hidden;
+    margin-bottom: 0px;
+    height: 100px;
 }
 #news{
     width: 100px;
@@ -57,7 +57,7 @@ body{
     color: black;
 }
 .topNav a.active {
-    background-color: deepskyblue;
+    background-color: darkgreen;
     color: white;
 }
 #foot1{
