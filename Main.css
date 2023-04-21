@@ -28,7 +28,7 @@ body{
     border: 2px solid black;
 }
 #head{
-    background: black;
+    background: deepskyblue;
     overflow: hidden;
     margin-bottom: 0px;
     height: 100px;
@@ -67,7 +67,8 @@ body{
 }
 #foot2{
     background: black;
-    padding: 65px;
+    padding: 80px;
+    box-shadow: 0 100vh 0 100vh black;
     overflow: auto;
 }
 #articles{
