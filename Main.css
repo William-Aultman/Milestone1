@@ -1,7 +1,9 @@
 *{
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 body{
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: auto;
@@ -30,8 +32,52 @@ body{
 #head{
     background: deepskyblue;
     overflow: hidden;
-    margin-bottom: 0px;
-    height: 100px;
+    margin-bottom: 0;
+    height: 200px;
+    width: 100%;
+}
+.cloud{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 0 10px black, inset -10px -10px 30px gray;
+    position: relative;
+    z-index: 1;
+}
+#cloud1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, 90%);
+}
+#cloud2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -10%);
+}
+#cloud3{
+    top: 50%;
+    left: 50%;
+    transform: translate(-160%, -250%);
+}
+#cloud4{
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, -350%);
+}
+#cloud5{
+    top: 50%;
+    left: 50%;
+    transform: translate(230%, -320%);
+}
+#websiteTitle{
+    position: fixed;
+    color: white;
+    font-size: 80px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    z-index: 2;
+    float: right;
 }
 #news{
     width: 100px;
@@ -82,6 +128,6 @@ body{
 }
 #title{
     background-color: grey;
-    margin: 0px;
+    margin: 0;
     color: white;
 }
