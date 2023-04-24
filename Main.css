@@ -13,11 +13,6 @@ body{
     grid-template-columns: auto auto;
     grid-column-gap: 1px;
 }
-.grid2{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 1px;
-}
 .whiteSpace{
     height: 30px;
 }
@@ -48,12 +43,12 @@ body{
 #cloud1{
     top: 50%;
     left: 50%;
-    transform: translate(-300%, 90%);
+    transform: translate(-280%, -180%);
 }
 #cloud2{
     top: 50%;
     left: 50%;
-    transform: translate(-20%, -10%);
+    transform: translate(-20%, -260%);
 }
 #cloud3{
     top: 50%;
@@ -68,16 +63,16 @@ body{
 #cloud5{
     top: 50%;
     left: 50%;
-    transform: translate(230%, -320%);
+    transform: translate(230%, -570%);
 }
 #websiteTitle{
-    position: fixed;
+    position: relative;
     color: white;
     font-size: 80px;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
     z-index: 2;
-    float: right;
+    padding-left: 3%;
 }
 #news{
     width: 100px;
