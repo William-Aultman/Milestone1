@@ -157,3 +157,9 @@ body{
     display: grid;
     grid-template-columns: auto auto;
 }
+form{
+    margin-left: 30px;
+}
+form label, form input{
+    margin: 5px 5px;
+}
